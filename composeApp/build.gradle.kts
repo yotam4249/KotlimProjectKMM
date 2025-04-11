@@ -62,14 +62,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        compose = true
-    }
 }
 
 dependencies {
-    implementation(libs.androidx.navigation.compose)
-    implementation(libs.firebase.auth.ktx)
     debugImplementation(compose.uiTooling)
 }
 
