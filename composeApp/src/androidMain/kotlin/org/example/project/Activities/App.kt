@@ -1,4 +1,4 @@
-package org.example.project
+package org.example.project.Activities
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.Image
@@ -15,6 +15,7 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 
 import kotlinprojectkmm.composeapp.generated.resources.Res
 import kotlinprojectkmm.composeapp.generated.resources.compose_multiplatform
+import org.example.project.Greeting
 
 @Composable
 @Preview
