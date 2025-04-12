@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
 }
 
+
 kotlin {
     androidTarget {
         @OptIn(ExperimentalKotlinGradlePluginApi::class)
@@ -42,4 +43,9 @@ android {
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
     }
+}
+dependencies {
+    implementation(libs.googleid)
+    implementation(libs.firebase.common.ktx)
+    implementation(libs.firebase.auth.ktx)
 }
